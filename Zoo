@@ -1,0 +1,24 @@
+package poli;
+
+public class Zoo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Animal kot = new Cat("Kleofas");
+		Animal pies = new Dog("Burek");
+		Animal doge = new Animal("Doge");
+		
+		
+		
+		//pies.giveVoice();
+		//kot.giveVoice();
+		//doge.giveVoice();
+		
+		Dog specificDog = (Dog)pies;
+		specificDog.bark();
+		
+		//((Dog) pies).bark();
+		((Cat) kot).purr();
+			}
+
+}
