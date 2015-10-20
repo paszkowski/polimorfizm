@@ -1,0 +1,19 @@
+package poli;
+
+public class Cat extends Animal {
+
+public Cat(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	void giveVoice () {
+		System.out.println("Jestem kotem i nazywam sie:  " + getName());
+	}
+	
+	public void purr() {
+		System.out.println("Purr Purr biotch");
+	}
+	
+}
